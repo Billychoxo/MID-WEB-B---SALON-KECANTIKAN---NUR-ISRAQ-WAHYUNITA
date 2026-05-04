@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking - GlowUp Salon</title>
+    <link rel="stylesheet" href="css/style_form.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="left-panel">
+
+            <h1>GlowUp Salon</h1>
+
+            <p>
+                Isi formulir reservasi untuk
+                mendapatkan pelayanan terbaik.
+            </p>
+
+            <a href="landing-page.html">
+                Kembali ke Home
+            </a>
+
+        </div>
+
+
+        <div class="right-panel">
+
+            <h2>Form Booking</h2>
+
+            <form action="tabel.html">
+
+                <label>Nama Pelanggan</label>
+                <input type="text" required>
+
+
+                <label>Nomor Telepon</label>
+                <input type="text" required>
+
+
+                <label>Pilih Layanan</label>
+                <select required>
+                    <option>Hair Treatment</option>
+                    <option>Skin Glow Spa</option>
+                    <option>Exclusive Makeup</option>
+                </select>
+
+
+                <label>Tanggal Booking</label>
+                <input type="date" required>
+
+
+                <label>Jenis Pembayaran</label>
+
+                <div class="radio-group">
+
+                    <label>
+                        <input type="radio" name="bayar">
+                        Cash
+                    </label>
+
+                    <label>
+                        <input type="radio" name="bayar">
+                        Transfer
+                    </label>
+
+                </div>
+
+
+                <label>Catatan Tambahan</label>
+                <textarea rows="4"></textarea>
+
+
+                <button type="submit">
+                    Submit Reservasi
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
